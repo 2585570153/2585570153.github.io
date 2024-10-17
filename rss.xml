@@ -15,8 +15,37 @@
     <atom:link href="https://blog.aiheadn.cn/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description>爱你所爱，行你所行</description>
-    <pubDate>Tue, 10 Sep 2024 03:43:10 GMT</pubDate>
+    <pubDate>Thu, 17 Oct 2024 06:58:34 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title></title>
+      <link>https://blog.aiheadn.cn/archives/0.html</link>
+      <guid>https://blog.aiheadn.cn/archives/0.html</guid>
+      <pubDate>Thu, 17 Oct 2024 06:39:56 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;title: 安装mysql5.7&amp;#x2F;8.0步骤教程&lt;br&gt;categories:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;代码学习&lt;/li&gt;
+&lt;li&gt;mysql&lt;br&gt;tags:&lt;/li&gt;
+&lt;li&gt;mysql&lt;br&gt;abbrlink: 797b159&lt;br&gt;date: 2023-04-21 08:17:56&lt;br&gt;description:&lt;br&gt;cover: &lt;a href=&quot;https://cos.aiheadn.cn/md/2023/2428897-20221122132626191-1658300850.png&quot;&gt;https://cos.aiheadn.cn/md/2023/2428897-20221122132626191-1658300850.png&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</description>
+          
+        
+      
+      
+      
+      
+      
+      
+      <comments>https://blog.aiheadn.cn/archives/0.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>宝塔docker部署项目（Java项目、Redis集群、twikoo、aList、MongoDB）</title>
@@ -109,7 +138,7 @@
     </item>
     
     <item>
-      <title>java环境配置相关</title>
+      <title>java、node、nvm、git环境指令常用配置</title>
       <link>https://blog.aiheadn.cn/archives/67db4df0.html</link>
       <guid>https://blog.aiheadn.cn/archives/67db4df0.html</guid>
       <pubDate>Sun, 05 Nov 2023 07:59:50 GMT</pubDate>
@@ -118,12 +147,9 @@
         
           
           
-      <description>&lt;h1 id=&quot;Maven&quot;&gt;&lt;a href=&quot;#Maven&quot; class=&quot;headerlink&quot; title=&quot;Maven&quot;&gt;&lt;/a&gt;Maven&lt;/h1&gt;&lt;p&gt;1.新建变量&lt;code&gt;MAVEN_HOME&lt;/code&gt; &amp;#x3D; E:&#92;Tools&#92;Maven&#92;apache-maven-3.8.1（以自己的安装路径为准）&lt;/p&gt;
-&lt;p&gt;2.编辑变量Path，添加变量值&lt;code&gt;%MAVEN_HOME%&#92;bin&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;3.win+R运行cmd，输入&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;mvn help:system&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;4.附件&lt;/p&gt;
-&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span</description>
+      <description>&lt;h1 id=&quot;node&quot;&gt;&lt;a href=&quot;#node&quot; class=&quot;headerlink&quot; title=&quot;node&quot;&gt;&lt;/a&gt;node&lt;/h1&gt;&lt;h2 id=&quot;指定npm镜像&quot;&gt;&lt;a href=&quot;#指定npm镜像&quot; class=&quot;headerlink&quot; title=&quot;指定npm镜像&quot;&gt;&lt;/a&gt;指定npm镜像&lt;/h2&gt;&lt;h3 id=&quot;查看当前的镜像源：&quot;&gt;&lt;a href=&quot;#查看当前的镜像源：&quot; class=&quot;headerlink&quot; title=&quot;查看当前的镜像源：&quot;&gt;&lt;/a&gt;查看当前的镜像源：&lt;/h3&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;npm config get registry&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;h3</description>
           
         
       
@@ -171,9 +197,9 @@
       <category domain="https://blog.aiheadn.cn/categories/Codelearning/">代码学习</category>
       
       
-      <category domain="https://blog.aiheadn.cn/tags/fiction/">fiction</category>
-      
       <category domain="https://blog.aiheadn.cn/tags/flutter/">flutter</category>
+      
+      <category domain="https://blog.aiheadn.cn/tags/fiction/">fiction</category>
       
       
       <comments>https://blog.aiheadn.cn/archives/b701ad99.html#disqus_thread</comments>
@@ -202,9 +228,9 @@
       <category domain="https://blog.aiheadn.cn/categories/Codelearning/">代码学习</category>
       
       
-      <category domain="https://blog.aiheadn.cn/tags/bisai/">比赛</category>
-      
       <category domain="https://blog.aiheadn.cn/tags/zuopin/">作品</category>
+      
+      <category domain="https://blog.aiheadn.cn/tags/bisai/">比赛</category>
       
       
       <comments>https://blog.aiheadn.cn/archives/b120a898.html#disqus_thread</comments>
@@ -223,9 +249,7 @@
           
       <description>&lt;p&gt;&lt;img src=&quot;https://cos.aiheadn.cn/md/2023/%E5%9B%BE%E7%89%871.png&quot; alt=&quot;图片1&quot;&gt;&lt;/p&gt;
 &lt;h1 id=&quot;故事开始&quot;&gt;&lt;a href=&quot;#故事开始&quot; class=&quot;headerlink&quot; title=&quot;故事开始&quot;&gt;&lt;/a&gt;故事开始&lt;/h1&gt;&lt;p&gt;始于一场初春，终于一场盛夏&lt;/p&gt;
-&lt;h1 id=&quot;面试&quot;&gt;&lt;a href=&quot;#面试&quot; class=&quot;headerlink&quot; title=&quot;面试&quot;&gt;&lt;/a&gt;面试&lt;/h1&gt;&lt;p&gt;因为对计算机感兴趣，所以选择了计算机专业。在大学刚入学时就听说双体学院，碍于种种原因没有过多关注。&lt;/p&gt;
-&lt;p&gt;后面在大三上学期双体开始开始选拔面试，那段时期天天去图书馆补习编程基础，后面的面试过程也是顺利通过。&lt;/p&gt;
-&lt;h1 id=&quot;四个月&quot;&gt;&lt;a href=&quot;#四个月&quot; class=&quot;headerlink&quot;</description>
+&lt;h1 id=&quot;双体&quot;&gt;&lt;a href=&quot;#双体&quot; class=&quot;headerlink&quot;</description>
           
         
       
@@ -266,11 +290,11 @@
       <category domain="https://blog.aiheadn.cn/categories/Codelearning/Python/">Python</category>
       
       
+      <category domain="https://blog.aiheadn.cn/tags/fiction/">fiction</category>
+      
       <category domain="https://blog.aiheadn.cn/tags/Python/">Python</category>
       
       <category domain="https://blog.aiheadn.cn/tags/Scrapy/">Scrapy</category>
-      
-      <category domain="https://blog.aiheadn.cn/tags/fiction/">fiction</category>
       
       
       <comments>https://blog.aiheadn.cn/archives/33410d32.html#disqus_thread</comments>
@@ -341,37 +365,6 @@
       
       
       <comments>https://blog.aiheadn.cn/archives/806da430.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>安装mysql5.7/8.0步骤教程</title>
-      <link>https://blog.aiheadn.cn/archives/797b159.html</link>
-      <guid>https://blog.aiheadn.cn/archives/797b159.html</guid>
-      <pubDate>Fri, 21 Apr 2023 00:17:56 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;网上的教程有很多，基本上大同小异。但是安装软件有时就可能因为一个细节安装失败。我也是综合了很多个教程才安装好的，所以本教程可能也不是普遍适合的。&lt;/p&gt;
-&lt;h1 id=&quot;下载zip安装包：&quot;&gt;&lt;a href=&quot;#下载zip安装包：&quot; class=&quot;headerlink&quot; title=&quot;下载zip安装包：&quot;&gt;&lt;/a&gt;下载zip安装包：&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;http://pan.aiheadn.cn/1814666951/download/mysql-5.7.20-winx64.zip&quot;&gt;http://pan.aiheadn.cn/1814666951/download/mysql-5.7.20-winx64.zip&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://blog.aiheadn.cn/categories/Codelearning/">代码学习</category>
-      
-      <category domain="https://blog.aiheadn.cn/categories/Codelearning/mysql/">mysql</category>
-      
-      
-      <category domain="https://blog.aiheadn.cn/tags/mysql/">mysql</category>
-      
-      
-      <comments>https://blog.aiheadn.cn/archives/797b159.html#disqus_thread</comments>
       
     </item>
     
@@ -601,13 +594,13 @@
       <category domain="https://blog.aiheadn.cn/categories/plane/">平面设计</category>
       
       
-      <category domain="https://blog.aiheadn.cn/tags/bisai/">比赛</category>
-      
-      <category domain="https://blog.aiheadn.cn/tags/zuopin/">作品</category>
-      
       <category domain="https://blog.aiheadn.cn/tags/plane/">平面设计</category>
       
       <category domain="https://blog.aiheadn.cn/tags/PS/">PS</category>
+      
+      <category domain="https://blog.aiheadn.cn/tags/zuopin/">作品</category>
+      
+      <category domain="https://blog.aiheadn.cn/tags/bisai/">比赛</category>
       
       
       <comments>https://blog.aiheadn.cn/archives/6bb180e7.html#disqus_thread</comments>
