@@ -15,37 +15,8 @@
     <atom:link href="https://blog.aiheadn.cn/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description>爱你所爱，行你所行</description>
-    <pubDate>Thu, 17 Oct 2024 06:58:34 GMT</pubDate>
+    <pubDate>Tue, 10 Sep 2024 03:43:10 GMT</pubDate>
     <generator>http://hexo.io/</generator>
-    
-    <item>
-      <title></title>
-      <link>https://blog.aiheadn.cn/archives/0.html</link>
-      <guid>https://blog.aiheadn.cn/archives/0.html</guid>
-      <pubDate>Thu, 17 Oct 2024 06:39:56 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;p&gt;title: 安装mysql5.7&amp;#x2F;8.0步骤教程&lt;br&gt;categories:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;代码学习&lt;/li&gt;
-&lt;li&gt;mysql&lt;br&gt;tags:&lt;/li&gt;
-&lt;li&gt;mysql&lt;br&gt;abbrlink: 797b159&lt;br&gt;date: 2023-04-21 08:17:56&lt;br&gt;description:&lt;br&gt;cover: &lt;a href=&quot;https://cos.aiheadn.cn/md/2023/2428897-20221122132626191-1658300850.png&quot;&gt;https://cos.aiheadn.cn/md/2023/2428897-20221122132626191-1658300850.png&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</description>
-          
-        
-      
-      
-      
-      
-      
-      
-      <comments>https://blog.aiheadn.cn/archives/0.html#disqus_thread</comments>
-      
-    </item>
     
     <item>
       <title>宝塔docker部署项目（Java项目、Redis集群、twikoo、aList、MongoDB）</title>
@@ -365,6 +336,37 @@
       
       
       <comments>https://blog.aiheadn.cn/archives/806da430.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>安装mysql5.7/8.0步骤教程</title>
+      <link>https://blog.aiheadn.cn/archives/797b159.html</link>
+      <guid>https://blog.aiheadn.cn/archives/797b159.html</guid>
+      <pubDate>Fri, 21 Apr 2023 00:17:56 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;网上的教程有很多，基本上大同小异。但是安装软件有时就可能因为一个细节安装失败。我也是综合了很多个教程才安装好的，所以本教程可能也不是普遍适合的。&lt;/p&gt;
+&lt;h1 id=&quot;下载zip安装包：&quot;&gt;&lt;a href=&quot;#下载zip安装包：&quot; class=&quot;headerlink&quot; title=&quot;下载zip安装包：&quot;&gt;&lt;/a&gt;下载zip安装包：&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;http://pan.aiheadn.cn/1814666951/download/mysql-5.7.20-winx64.zip&quot;&gt;http://pan.aiheadn.cn/1814666951/download/mysql-5.7.20-winx64.zip&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.aiheadn.cn/categories/Codelearning/">代码学习</category>
+      
+      <category domain="https://blog.aiheadn.cn/categories/Codelearning/mysql/">mysql</category>
+      
+      
+      <category domain="https://blog.aiheadn.cn/tags/mysql/">mysql</category>
+      
+      
+      <comments>https://blog.aiheadn.cn/archives/797b159.html#disqus_thread</comments>
       
     </item>
     
