@@ -15,8 +15,41 @@
     <atom:link href="https://blog.aiheadn.cn/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description>爱你所爱，行你所行</description>
-    <pubDate>Sun, 24 Nov 2024 13:34:18 GMT</pubDate>
+    <pubDate>Fri, 10 Jan 2025 18:32:36 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>maven下载依赖jhash:2.1.2和对应jar包</title>
+      <link>https://blog.aiheadn.cn/archives/aa5c9544.html</link>
+      <guid>https://blog.aiheadn.cn/archives/aa5c9544.html</guid>
+      <pubDate>Fri, 10 Jan 2025 15:59:41 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;25年新的一年，那就先更新一篇技术文章吧，这个是这几天刚遇到的一个有意思的bug，记录分享一下&lt;/p&gt;
+&lt;h1 id=&quot;原因分析&quot;&gt;&lt;a href=&quot;#原因分析&quot; class=&quot;headerlink&quot; title=&quot;原因分析&quot;&gt;&lt;/a&gt;原因分析&lt;/h1&gt;&lt;p&gt;在使用maven加载一个项目的时，发现maven的依赖一直无法解析，更换阿里云镜像和中央仓库都没办法解析。&lt;code&gt;不能解决com.amdelamar:jhash:2.1.2&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cos.aiheadn.cn/md/2025/01/image-20250111013253989.png&quot; alt=&quot;image-20250111013253989&quot;&gt;&lt;/p&gt;
+&lt;p&gt;随后查看pom文件，maven依赖坐标发现没有报错，报错的是依赖中的依赖&lt;/p&gt;
+&lt;p&gt;&lt;img</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.aiheadn.cn/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/">技术栈</category>
+      
+      <category domain="https://blog.aiheadn.cn/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/java/">java</category>
+      
+      
+      <category domain="https://blog.aiheadn.cn/tags/Maven/">Maven</category>
+      
+      
+      <comments>https://blog.aiheadn.cn/archives/aa5c9544.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>宝塔docker部署项目（Java项目、Redis集群、twikoo、aList、MongoDB）</title>
@@ -37,7 +70,9 @@
       
       
       
-      <category domain="https://blog.aiheadn.cn/categories/IT/">IT</category>
+      <category domain="https://blog.aiheadn.cn/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/">技术栈</category>
+      
+      <category domain="https://blog.aiheadn.cn/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/%E6%9C%8D%E5%8A%A1%E5%99%A8/">服务器</category>
       
       
       <category domain="https://blog.aiheadn.cn/tags/docker/">docker</category>
@@ -67,7 +102,9 @@
       
       
       
-      <category domain="https://blog.aiheadn.cn/categories/jQuery/">jQuery</category>
+      <category domain="https://blog.aiheadn.cn/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/">技术栈</category>
+      
+      <category domain="https://blog.aiheadn.cn/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/%E5%89%8D%E7%AB%AF/">前端</category>
       
       
       <category domain="https://blog.aiheadn.cn/tags/jQuery/">jQuery</category>
@@ -96,9 +133,9 @@
       
       
       
-      <category domain="https://blog.aiheadn.cn/categories/Codelearning/">代码学习</category>
+      <category domain="https://blog.aiheadn.cn/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/">技术栈</category>
       
-      <category domain="https://blog.aiheadn.cn/categories/Codelearning/hexo/">hexo</category>
+      <category domain="https://blog.aiheadn.cn/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/hexo/">hexo</category>
       
       
       <category domain="https://blog.aiheadn.cn/tags/Twikoo/">Twikoo</category>
@@ -127,9 +164,9 @@
       
       
       
-      <category domain="https://blog.aiheadn.cn/categories/Codelearning/">代码学习</category>
+      <category domain="https://blog.aiheadn.cn/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/">技术栈</category>
       
-      <category domain="https://blog.aiheadn.cn/categories/Codelearning/Java/">Java</category>
+      <category domain="https://blog.aiheadn.cn/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/Java/">Java</category>
       
       
       <category domain="https://blog.aiheadn.cn/tags/Java/">Java</category>
@@ -165,7 +202,9 @@
       
       
       
-      <category domain="https://blog.aiheadn.cn/categories/Codelearning/">代码学习</category>
+      <category domain="https://blog.aiheadn.cn/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/">技术栈</category>
+      
+      <category domain="https://blog.aiheadn.cn/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/flutter/">flutter</category>
       
       
       <category domain="https://blog.aiheadn.cn/tags/flutter/">flutter</category>
@@ -196,7 +235,9 @@
       
       
       
-      <category domain="https://blog.aiheadn.cn/categories/Codelearning/">代码学习</category>
+      <category domain="https://blog.aiheadn.cn/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/">技术栈</category>
+      
+      <category domain="https://blog.aiheadn.cn/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/Java/">Java</category>
       
       
       <category domain="https://blog.aiheadn.cn/tags/zuopin/">作品</category>
@@ -256,9 +297,9 @@
       
       
       
-      <category domain="https://blog.aiheadn.cn/categories/Codelearning/">代码学习</category>
+      <category domain="https://blog.aiheadn.cn/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/">技术栈</category>
       
-      <category domain="https://blog.aiheadn.cn/categories/Codelearning/Python/">Python</category>
+      <category domain="https://blog.aiheadn.cn/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/Python/">Python</category>
       
       
       <category domain="https://blog.aiheadn.cn/tags/fiction/">fiction</category>
@@ -292,7 +333,7 @@
       
       
       
-      <category domain="https://blog.aiheadn.cn/categories/Codelearning/">代码学习</category>
+      <category domain="https://blog.aiheadn.cn/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/">技术栈</category>
       
       
       <category domain="https://blog.aiheadn.cn/tags/fiction/">fiction</category>
@@ -327,7 +368,7 @@
       
       
       
-      <category domain="https://blog.aiheadn.cn/categories/Codelearning/">代码学习</category>
+      <category domain="https://blog.aiheadn.cn/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/">技术栈</category>
       
       
       <category domain="https://blog.aiheadn.cn/tags/fiction/">fiction</category>
@@ -358,9 +399,9 @@
       
       
       
-      <category domain="https://blog.aiheadn.cn/categories/Codelearning/">代码学习</category>
+      <category domain="https://blog.aiheadn.cn/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/">技术栈</category>
       
-      <category domain="https://blog.aiheadn.cn/categories/Codelearning/mysql/">mysql</category>
+      <category domain="https://blog.aiheadn.cn/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/%E6%95%B0%E6%8D%AE%E5%BA%93/">数据库</category>
       
       
       <category domain="https://blog.aiheadn.cn/tags/mysql/">mysql</category>
@@ -390,9 +431,9 @@
       
       
       
-      <category domain="https://blog.aiheadn.cn/categories/Codelearning/">代码学习</category>
+      <category domain="https://blog.aiheadn.cn/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/">技术栈</category>
       
-      <category domain="https://blog.aiheadn.cn/categories/Codelearning/Java/">Java</category>
+      <category domain="https://blog.aiheadn.cn/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/Java/">Java</category>
       
       
       <category domain="https://blog.aiheadn.cn/tags/Java/">Java</category>
@@ -421,7 +462,7 @@
       
       
       
-      <category domain="https://blog.aiheadn.cn/categories/IT/">IT</category>
+      <category domain="https://blog.aiheadn.cn/categories/%E7%90%86%E8%AE%BA%E8%80%83%E8%AF%95/">理论考试</category>
       
       
       <category domain="https://blog.aiheadn.cn/tags/edu/">edu</category>
@@ -451,7 +492,7 @@
       
       
       
-      <category domain="https://blog.aiheadn.cn/categories/IT/">IT</category>
+      <category domain="https://blog.aiheadn.cn/categories/%E7%B3%BB%E7%BB%9F%E7%BB%B4%E4%BF%AE/">系统维修</category>
       
       
       <category domain="https://blog.aiheadn.cn/tags/C/">C</category>
@@ -472,9 +513,9 @@
       
       
       
-      <category domain="https://blog.aiheadn.cn/categories/Codelearning/">代码学习</category>
+      <category domain="https://blog.aiheadn.cn/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/">技术栈</category>
       
-      <category domain="https://blog.aiheadn.cn/categories/Codelearning/hexo/">hexo</category>
+      <category domain="https://blog.aiheadn.cn/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/hexo/">hexo</category>
       
       
       <category domain="https://blog.aiheadn.cn/tags/hexo/">hexo</category>
@@ -495,9 +536,9 @@
       
       
       
-      <category domain="https://blog.aiheadn.cn/categories/Codelearning/">代码学习</category>
+      <category domain="https://blog.aiheadn.cn/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/">技术栈</category>
       
-      <category domain="https://blog.aiheadn.cn/categories/Codelearning/hexo/">hexo</category>
+      <category domain="https://blog.aiheadn.cn/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/hexo/">hexo</category>
       
       
       <category domain="https://blog.aiheadn.cn/tags/hexo/">hexo</category>
@@ -529,9 +570,9 @@
       
       
       
-      <category domain="https://blog.aiheadn.cn/categories/Codelearning/">代码学习</category>
+      <category domain="https://blog.aiheadn.cn/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/">技术栈</category>
       
-      <category domain="https://blog.aiheadn.cn/categories/Codelearning/Java/">Java</category>
+      <category domain="https://blog.aiheadn.cn/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/Java/">Java</category>
       
       
       <category domain="https://blog.aiheadn.cn/tags/Java/">Java</category>
