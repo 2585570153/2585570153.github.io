@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ad博客</title>
+    <link>https://blog.aiheadn.cn/</link>
+    
+    <image>
+      <url>https://blog.aiheadn.cn/icon.png</url>
+      <title>ad博客</title>
+      <link>https://blog.aiheadn.cn/</link>
+    </image>
+    
+    <atom:link href="https://blog.aiheadn.cn/rss.xml" rel="self" type="application/rss+xml"/>
+    
+    <description>成长即相逢与告别</description>
+    <pubDate>Tue, 22 Jul 2025 02:39:09 GMT</pubDate>
+    <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>博客更换Solitude主题</title>
+      <link>https://blog.aiheadn.cn/archives/1b4c034d.html</link>
+      <guid>https://blog.aiheadn.cn/archives/1b4c034d.html</guid>
+      <pubDate>Mon, 14 Jul 2025 05:19:11 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;开往等博友圈子时，很多博客&lt;a href=&quot;https://github.com/jerryc127/hexo-theme-butterfly&quot;&gt;Butterfly&lt;/a&gt;主题都逐渐向张洪Heo博客风格转变，这周抽时间也进行一次转型，本篇文章主要记录修改过程，供以后参考&lt;/p&gt;
+&lt;h1 id=&quot;历史回顾&quot;&gt;&lt;a href=&quot;#历史回顾&quot; class=&quot;headerlink&quot; title=&quot;历史回顾&quot;&gt;&lt;/a&gt;历史回顾&lt;/h1&gt;&lt;p&gt;截一张之前的博客截图留作纪念，后续拥抱新的主题&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cos.aiheadn.cn/md/2025/07/20250714224529006.png&quot; alt=&quot;Snipaste_2025-07-14_22-45-16&quot;&gt;&lt;/p&gt;
+&lt;h1 id=&quot;参考文档&quot;&gt;&lt;a href=&quot;#参考文档&quot; class=&quot;headerlink&quot;</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.aiheadn.cn/categories/%E6%8A%80%E6%9C%AF%E5%AE%9E%E8%B7%B5/">技术实践</category>
+      
+      
+      <category domain="https://blog.aiheadn.cn/tags/hexo/">hexo</category>
+      
+      <category domain="https://blog.aiheadn.cn/tags/Solitude/">Solitude</category>
+      
+      
+      <comments>https://blog.aiheadn.cn/archives/1b4c034d.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>maven下载依赖jhash:2.1.2和对应jar包</title>
+      <link>https://blog.aiheadn.cn/archives/aa5c9544.html</link>
+      <guid>https://blog.aiheadn.cn/archives/aa5c9544.html</guid>
+      <pubDate>Fri, 10 Jan 2025 15:59:41 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;25年新的一年，那就先更新一篇技术文章吧，这个是这几天刚遇到的一个有意思的bug，记录分享一下&lt;/p&gt;
+&lt;h1 id=&quot;原因分析&quot;&gt;&lt;a href=&quot;#原因分析&quot; class=&quot;headerlink&quot; title=&quot;原因分析&quot;&gt;&lt;/a&gt;原因分析&lt;/h1&gt;&lt;p&gt;在使用maven加载一个项目的时，发现maven的依赖一直无法解析，更换阿里云镜像和中央仓库都没办法解析。&lt;code&gt;不能解决com.amdelamar:jhash:2.1.2&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cos.aiheadn.cn/md/2025/01/image-20250111013253989.png&quot; alt=&quot;image-20250111013253989&quot;&gt;&lt;/p&gt;
+&lt;p&gt;随后查看pom文件，maven依赖坐标发现没有报错，报错的是依赖中的依赖&lt;/p&gt;
+&lt;p&gt;&lt;img</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.aiheadn.cn/categories/%E6%8A%80%E6%9C%AF%E5%AE%9E%E8%B7%B5/">技术实践</category>
+      
+      
+      <category domain="https://blog.aiheadn.cn/tags/Maven/">Maven</category>
+      
+      
+      <comments>https://blog.aiheadn.cn/archives/aa5c9544.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>宝塔docker部署项目（Java项目、Redis集群、twikoo、aList、MongoDB）</title>
+      <link>https://blog.aiheadn.cn/archives/b8f219f7.html</link>
+      <guid>https://blog.aiheadn.cn/archives/b8f219f7.html</guid>
+      <pubDate>Sat, 20 Jul 2024 04:38:53 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;最近几天心血来潮想给网站更换一下部署架构，之前的项目一般都是直接写入Linux中配置，项目杂乱还不好管理，近期网上学习docker，和一直使用的宝塔面板，总结一下如何使用宝塔中的docker容器化部署项目&lt;/p&gt;
+&lt;h1 id=&quot;购买服务器&quot;&gt;&lt;a href=&quot;#购买服务器&quot; class=&quot;headerlink&quot; title=&quot;购买服务器&quot;&gt;&lt;/a&gt;购买服务器&lt;/h1&gt;&lt;p&gt;熟悉肯定要购买服务器，我使用的是腾讯云轻量云 镜像可以预装宝塔面板 然后根据提示配置账号密码 开放安全组&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://cloud.tencent.com/act/cps/redirect?redirect=2446&amp;cps_key=e28761d0261d65bbed5b14d5d92e1a04&amp;from=console&quot;&gt;&lt;img src=&quot;https://cos.aiheadn.cn/md/2024/07/728_90.png&quot;</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.aiheadn.cn/categories/%E6%8A%80%E6%9C%AF%E5%AE%9E%E8%B7%B5/">技术实践</category>
+      
+      
+      <category domain="https://blog.aiheadn.cn/tags/docker/">docker</category>
+      
+      
+      <comments>https://blog.aiheadn.cn/archives/b8f219f7.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>使用jQuery编写兼容ie8的多选下拉框搜索过滤</title>
+      <link>https://blog.aiheadn.cn/archives/f038359.html</link>
+      <guid>https://blog.aiheadn.cn/archives/f038359.html</guid>
+      <pubDate>Fri, 31 May 2024 16:28:52 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;之前在公司碰到一个业务，需要使用一个下拉框带搜索过滤功能，并且支持回显，将已经失效的数据进行提示。所以需要手写一个下拉框，该下拉框可自由配置，使用jq编写组件同时需要兼容浏览器ie8及以上&lt;/p&gt;
+&lt;h1 id=&quot;效果图&quot;&gt;&lt;a href=&quot;#效果图&quot; class=&quot;headerlink&quot; title=&quot;效果图&quot;&gt;&lt;/a&gt;效果图&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;https://cos.aiheadn.cn/md/2024/06/%E4%B8%8B%E6%8B%89%E6%A1%86.gif&quot; alt=&quot;下拉框&quot;&gt;&lt;/p&gt;
+&lt;h1 id=&quot;代码解析&quot;&gt;&lt;a href=&quot;#代码解析&quot; class=&quot;headerlink&quot; title=&quot;代码解析&quot;&gt;&lt;/a&gt;代码解析&lt;/h1&gt;&lt;p&gt;下面详细分析一下代码部分&lt;/p&gt;
+&lt;h2 id=&quot;配置挂载和使用方法&quot;&gt;&lt;a href=&quot;#配置挂载和使用方法&quot; class=&quot;headerlink&quot;</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.aiheadn.cn/categories/%E6%8A%80%E6%9C%AF%E5%AE%9E%E8%B7%B5/">技术实践</category>
+      
+      
+      <category domain="https://blog.aiheadn.cn/tags/jQuery/">jQuery</category>
+      
+      
+      <comments>https://blog.aiheadn.cn/archives/f038359.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>linux自建 Twikoo 评论系统私有部署保姆级（非Docker）</title>
+      <link>https://blog.aiheadn.cn/archives/b7dc4b60.html</link>
+      <guid>https://blog.aiheadn.cn/archives/b7dc4b60.html</guid>
+      <pubDate>Sat, 06 Jan 2024 15:41:39 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;利用私有部署把Twikoo评论部署在博客上，网上基本都是Docker方式的安装，因为对Docker不熟悉而且常规的私有部署教程全网基本没有，所以记录一下，给需要的人使用linux（非Docke版）安装。&lt;/p&gt;
+&lt;h1 id=&quot;下载node&quot;&gt;&lt;a href=&quot;#下载node&quot; class=&quot;headerlink&quot; title=&quot;下载node&quot;&gt;&lt;/a&gt;下载node&lt;/h1&gt;&lt;h3 id=&quot;下载&quot;&gt;&lt;a href=&quot;#下载&quot; class=&quot;headerlink&quot; title=&quot;下载&quot;&gt;&lt;/a&gt;下载&lt;/h3&gt;&lt;p&gt;进入nodejs &lt;a href=&quot;https://nodejs.org/dist/&quot;&gt;nodejs官方网站&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;找到需要下载的版本号，右键复制出下载地址 &lt;a</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.aiheadn.cn/categories/%E6%8A%80%E6%9C%AF%E5%AE%9E%E8%B7%B5/">技术实践</category>
+      
+      
+      <category domain="https://blog.aiheadn.cn/tags/Twikoo/">Twikoo</category>
+      
+      
+      <comments>https://blog.aiheadn.cn/archives/b7dc4b60.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>java、node、nvm、git环境指令常用配置</title>
+      <link>https://blog.aiheadn.cn/archives/67db4df0.html</link>
+      <guid>https://blog.aiheadn.cn/archives/67db4df0.html</guid>
+      <pubDate>Sun, 05 Nov 2023 07:59:50 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h1 id=&quot;node&quot;&gt;&lt;a href=&quot;#node&quot; class=&quot;headerlink&quot; title=&quot;node&quot;&gt;&lt;/a&gt;node&lt;/h1&gt;&lt;h2 id=&quot;指定npm镜像&quot;&gt;&lt;a href=&quot;#指定npm镜像&quot; class=&quot;headerlink&quot; title=&quot;指定npm镜像&quot;&gt;&lt;/a&gt;指定npm镜像&lt;/h2&gt;&lt;h3 id=&quot;查看当前的镜像源：&quot;&gt;&lt;a href=&quot;#查看当前的镜像源：&quot; class=&quot;headerlink&quot; title=&quot;查看当前的镜像源：&quot;&gt;&lt;/a&gt;查看当前的镜像源：&lt;/h3&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;npm config get registry&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;h3</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.aiheadn.cn/categories/%E6%8A%80%E6%9C%AF%E5%AE%9E%E8%B7%B5/">技术实践</category>
+      
+      
+      <category domain="https://blog.aiheadn.cn/tags/Java/">Java</category>
+      
+      
+      <comments>https://blog.aiheadn.cn/archives/67db4df0.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>fiction中文网flutter代码分析</title>
+      <link>https://blog.aiheadn.cn/archives/b701ad99.html</link>
+      <guid>https://blog.aiheadn.cn/archives/b701ad99.html</guid>
+      <pubDate>Sun, 13 Aug 2023 14:21:48 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;&lt;img src=&quot;https://cos.aiheadn.cn/md/2023/logo2.png&quot; alt=&quot;logo&quot;&gt;&lt;/p&gt;
+&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;主要记录我在开发这个小说网项目的使用的代码块，方便忘记之后复用和分析&lt;/p&gt;
+&lt;h1 id=&quot;配置&quot;&gt;&lt;a href=&quot;#配置&quot; class=&quot;headerlink&quot; title=&quot;配置&quot;&gt;&lt;/a&gt;配置&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;状态管理：Getx 以及一些工具类&lt;/li&gt;
+&lt;li&gt;网络请求：dio&lt;/li&gt;
+&lt;li&gt;缓存shared_preferences&lt;/li&gt;
+&lt;li&gt;路由管理：fluro&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;环境变量&quot;&gt;&lt;a href=&quot;#环境变量&quot; class=&quot;headerlink&quot; title=&quot;环境变量&quot;&gt;&lt;/a&gt;环境变量&lt;/h1&gt;&lt;p&gt;清华镜像&lt;/p&gt;
+&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.aiheadn.cn/categories/%E6%8A%80%E6%9C%AF%E5%AE%9E%E8%B7%B5/">技术实践</category>
+      
+      
+      <category domain="https://blog.aiheadn.cn/tags/fiction/">fiction</category>
+      
+      <category domain="https://blog.aiheadn.cn/tags/flutter/">flutter</category>
+      
+      
+      <comments>https://blog.aiheadn.cn/archives/b701ad99.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>2023大学生计算机设计大赛作品</title>
+      <link>https://blog.aiheadn.cn/archives/b120a898.html</link>
+      <guid>https://blog.aiheadn.cn/archives/b120a898.html</guid>
+      <pubDate>Sun, 25 Jun 2023 06:55:08 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;又一次参加了计算机设计大赛，不过这次换了一个赛道&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cos.aiheadn.cn/md/2023/logo1.png&quot; alt=&quot;logo1&quot;&gt;&lt;/p&gt;
+&lt;h1 id=&quot;获奖省二&quot;&gt;&lt;a href=&quot;#获奖省二&quot; class=&quot;headerlink&quot; title=&quot;获奖省二&quot;&gt;&lt;/a&gt;获奖省二&lt;/h1&gt;&lt;p&gt;拿到了省级二等奖&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cos.aiheadn.cn/md/2023/image-20230625145843494.png&quot; alt=&quot;image-20230625145843494&quot;&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;left&quot;&gt;作品名称&lt;/th&gt;
+&lt;th&gt;RollCode -</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.aiheadn.cn/categories/%E6%8A%80%E6%9C%AF%E5%AE%9E%E8%B7%B5/">技术实践</category>
+      
+      
+      <category domain="https://blog.aiheadn.cn/tags/bisai/">比赛</category>
+      
+      <category domain="https://blog.aiheadn.cn/tags/zuopin/">作品</category>
+      
+      
+      <comments>https://blog.aiheadn.cn/archives/b120a898.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>软件开发中心双体系</title>
+      <link>https://blog.aiheadn.cn/archives/b0bcd763.html</link>
+      <guid>https://blog.aiheadn.cn/archives/b0bcd763.html</guid>
+      <pubDate>Sat, 24 Jun 2023 15:48:24 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;&lt;img src=&quot;https://cos.aiheadn.cn/md/2023/%E5%9B%BE%E7%89%871.png&quot; alt=&quot;图片1&quot;&gt;&lt;/p&gt;
+&lt;h1 id=&quot;故事开始&quot;&gt;&lt;a href=&quot;#故事开始&quot; class=&quot;headerlink&quot; title=&quot;故事开始&quot;&gt;&lt;/a&gt;故事开始&lt;/h1&gt;&lt;p&gt;始于一场初春，终于一场盛夏&lt;/p&gt;
+&lt;h1 id=&quot;双体&quot;&gt;&lt;a href=&quot;#双体&quot; class=&quot;headerlink&quot;</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.aiheadn.cn/categories/ganxiang/">随笔感想</category>
+      
+      
+      <category domain="https://blog.aiheadn.cn/tags/ganxiang/">随笔感想</category>
+      
+      
+      <comments>https://blog.aiheadn.cn/archives/b0bcd763.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>fiction中文网爬虫代码分析</title>
+      <link>https://blog.aiheadn.cn/archives/33410d32.html</link>
+      <guid>https://blog.aiheadn.cn/archives/33410d32.html</guid>
+      <pubDate>Mon, 12 Jun 2023 02:46:33 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;&lt;img src=&quot;https://cos.aiheadn.cn/md/2023/logo2.png&quot; alt=&quot;logo&quot;&gt;&lt;/p&gt;
+&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;记录开发爬虫系统的一些代码分析&lt;/p&gt;
+&lt;h1 id=&quot;管道处理&quot;&gt;&lt;a href=&quot;#管道处理&quot; class=&quot;headerlink&quot; title=&quot;管道处理&quot;&gt;&lt;/a&gt;管道处理&lt;/h1&gt;&lt;h2 id=&quot;对于下载的txt&quot;&gt;&lt;a href=&quot;#对于下载的txt&quot; class=&quot;headerlink&quot; title=&quot;对于下载的txt&quot;&gt;&lt;/a&gt;对于下载的txt&lt;/h2&gt;&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.aiheadn.cn/categories/%E6%8A%80%E6%9C%AF%E5%AE%9E%E8%B7%B5/">技术实践</category>
+      
+      
+      <category domain="https://blog.aiheadn.cn/tags/Python/">Python</category>
+      
+      <category domain="https://blog.aiheadn.cn/tags/Scrapy/">Scrapy</category>
+      
+      <category domain="https://blog.aiheadn.cn/tags/fiction/">fiction</category>
+      
+      
+      <comments>https://blog.aiheadn.cn/archives/33410d32.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>fiction中文网后端代码分析</title>
+      <link>https://blog.aiheadn.cn/archives/47e3ed5a.html</link>
+      <guid>https://blog.aiheadn.cn/archives/47e3ed5a.html</guid>
+      <pubDate>Mon, 05 Jun 2023 06:38:47 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;&lt;img src=&quot;https://cos.aiheadn.cn/md/2023/logo2.png&quot; alt=&quot;logo&quot;&gt;&lt;/p&gt;
+&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;主要记录我在开发这个小说网项目的使用的代码块，方便忘记之后复用和分析&lt;/p&gt;
+&lt;h1 id=&quot;排行榜查询实现开发日志&quot;&gt;&lt;a href=&quot;#排行榜查询实现开发日志&quot; class=&quot;headerlink&quot; title=&quot;排行榜查询实现开发日志&quot;&gt;&lt;/a&gt;排行榜查询实现开发日志&lt;/h1&gt;&lt;h2 id=&quot;查询&quot;&gt;&lt;a href=&quot;#查询&quot; class=&quot;headerlink&quot; title=&quot;查询&quot;&gt;&lt;/a&gt;查询&lt;/h2&gt;&lt;p&gt;Mapper层和xml层&lt;/p&gt;
+&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.aiheadn.cn/categories/%E6%8A%80%E6%9C%AF%E5%AE%9E%E8%B7%B5/">技术实践</category>
+      
+      
+      <category domain="https://blog.aiheadn.cn/tags/fiction/">fiction</category>
+      
+      <category domain="https://blog.aiheadn.cn/tags/spring/">spring</category>
+      
+      
+      <comments>https://blog.aiheadn.cn/archives/47e3ed5a.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>fiction中文网前端代码分析</title>
+      <link>https://blog.aiheadn.cn/archives/806da430.html</link>
+      <guid>https://blog.aiheadn.cn/archives/806da430.html</guid>
+      <pubDate>Fri, 02 Jun 2023 12:35:36 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;&lt;img src=&quot;https://cos.aiheadn.cn/md/2023/logo2.png&quot; alt=&quot;logo&quot;&gt;&lt;/p&gt;
+&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;主要记录我在开发这个小说网项目的使用的代码块，方便忘记之后复用和分析&lt;/p&gt;
+&lt;h1 id=&quot;配置&quot;&gt;&lt;a href=&quot;#配置&quot; class=&quot;headerlink&quot; title=&quot;配置&quot;&gt;&lt;/a&gt;配置&lt;/h1&gt;&lt;p&gt;本项目配置了&lt;/p&gt;
+&lt;p&gt;1.Element Plus 的全局方式&lt;/p&gt;
+&lt;p&gt;2.阿里ico图标&lt;/p&gt;
+&lt;p&gt;3.pinna的插件 持久化存储&lt;/p&gt;
+&lt;h1 id=&quot;vue-项目-页面刷新404问题&quot;&gt;&lt;a href=&quot;#vue-项目-页面刷新404问题&quot; class=&quot;headerlink&quot; title=&quot;vue 项目 页面刷新404问题&quot;&gt;&lt;/a&gt;vue 项目</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.aiheadn.cn/categories/%E6%8A%80%E6%9C%AF%E5%AE%9E%E8%B7%B5/">技术实践</category>
+      
+      
+      <category domain="https://blog.aiheadn.cn/tags/fiction/">fiction</category>
+      
+      <category domain="https://blog.aiheadn.cn/tags/Vue/">Vue</category>
+      
+      
+      <comments>https://blog.aiheadn.cn/archives/806da430.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>安装mysql5.7/8.0步骤教程</title>
+      <link>https://blog.aiheadn.cn/archives/797b159.html</link>
+      <guid>https://blog.aiheadn.cn/archives/797b159.html</guid>
+      <pubDate>Fri, 21 Apr 2023 00:17:56 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;网上的教程有很多，基本上大同小异。但是安装软件有时就可能因为一个细节安装失败。我也是综合了很多个教程才安装好的，所以本教程可能也不是普遍适合的。&lt;/p&gt;
+&lt;h1 id=&quot;下载zip安装包：&quot;&gt;&lt;a href=&quot;#下载zip安装包：&quot; class=&quot;headerlink&quot; title=&quot;下载zip安装包：&quot;&gt;&lt;/a&gt;下载zip安装包：&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;http://pan.aiheadn.cn/1814666951/download/mysql-5.7.20-winx64.zip&quot;&gt;http://pan.aiheadn.cn/1814666951/download/mysql-5.7.20-winx64.zip&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.aiheadn.cn/categories/%E6%8A%80%E6%9C%AF%E5%AE%9E%E8%B7%B5/">技术实践</category>
+      
+      
+      <category domain="https://blog.aiheadn.cn/tags/mysql/">mysql</category>
+      
+      
+      <comments>https://blog.aiheadn.cn/archives/797b159.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Java无数据库|MySQL的图书管理系统</title>
+      <link>https://blog.aiheadn.cn/archives/a51586d5.html</link>
+      <guid>https://blog.aiheadn.cn/archives/a51586d5.html</guid>
+      <pubDate>Wed, 15 Mar 2023 13:14:39 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;没有使用数据库，没有使用JDBC 单纯的拿列表开发的一个图书管理系统，主要目的在于练习java一些基础的知识，感兴趣的可以下载代码了解一下。&lt;/p&gt;
+&lt;h1 id=&quot;提醒&quot;&gt;&lt;a href=&quot;#提醒&quot; class=&quot;headerlink&quot; title=&quot;提醒&quot;&gt;&lt;/a&gt;提醒&lt;/h1&gt;&lt;p&gt;这个是基于列表的增删改查，列表是在运行的时候会保存数据，但是当程序结束后，一切有恢复原来的模样，在写这个最简单的图书管理系统，用的是简化版的三层架构，为了之后完善方便。&lt;/p&gt;
+&lt;p&gt;三层架构可以非常快速的将这个系统修改成使用数据库版本，达到真正的存储数据。&lt;/p&gt;
+&lt;h1 id=&quot;软件界面&quot;&gt;&lt;a href=&quot;#软件界面&quot; class=&quot;headerlink&quot; title=&quot;软件界面&quot;&gt;&lt;/a&gt;软件界面&lt;/h1&gt;&lt;p&gt;&lt;img</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.aiheadn.cn/categories/%E6%8A%80%E6%9C%AF%E5%AE%9E%E8%B7%B5/">技术实践</category>
+      
+      
+      <category domain="https://blog.aiheadn.cn/tags/Java/">Java</category>
+      
+      
+      <comments>https://blog.aiheadn.cn/archives/a51586d5.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>软件设计师中一些公式知识点</title>
+      <link>https://blog.aiheadn.cn/archives/8b4bd44a.html</link>
+      <guid>https://blog.aiheadn.cn/archives/8b4bd44a.html</guid>
+      <pubDate>Wed, 01 Mar 2023 13:54:13 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h1 id=&quot;计算机组成原理&quot;&gt;&lt;a href=&quot;#计算机组成原理&quot; class=&quot;headerlink&quot; title=&quot;计算机组成原理&quot;&gt;&lt;/a&gt;计算机组成原理&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;https://cos.aiheadn.cn/md/2023/image-20230526172938120.png&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;&quot;&gt;&lt;/a&gt;&lt;img src=&quot;https://cos.aiheadn.cn/md/2023/image-20230526173040254.png&quot; alt=&quot;image-20230526173040254&quot;&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;https://cos.aiheadn.cn/md/2023/image-20230526194146458.png&quot; alt=&quot;image-20230526194146458&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;补码计算&quot;&gt;&lt;a href=&quot;#补码计算&quot; class=&quot;headerlink&quot;</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.aiheadn.cn/categories/%E7%90%86%E8%AE%BA%E5%AD%A6%E4%B9%A0/">理论学习</category>
+      
+      
+      <category domain="https://blog.aiheadn.cn/tags/edu/">edu</category>
+      
+      
+      <comments>https://blog.aiheadn.cn/archives/8b4bd44a.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>对于win系统的C盘进行瘦身</title>
+      <link>https://blog.aiheadn.cn/archives/679a4029.html</link>
+      <guid>https://blog.aiheadn.cn/archives/679a4029.html</guid>
+      <pubDate>Fri, 24 Feb 2023 06:13:47 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;&lt;img src=&quot;https://cos.aiheadn.cn/md/2023/spacesniffer_title.jpg&quot; alt=&quot;img&quot;&gt;&lt;/p&gt;
+&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;记录一下清理电脑c盘的一下小技巧&lt;/p&gt;
+&lt;h1 id=&quot;工具&quot;&gt;&lt;a href=&quot;#工具&quot; class=&quot;headerlink&quot; title=&quot;工具&quot;&gt;&lt;/a&gt;工具&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;http://cloud.aiheadn.cn/&quot;&gt;主页 | a.d的私有云盘 (aiheadn.cn)&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;清理c盘缓存&quot;&gt;&lt;a href=&quot;#清理c盘缓存&quot; class=&quot;headerlink&quot; title=&quot;清理c盘缓存&quot;&gt;&lt;/a&gt;清理c盘缓存&lt;/h1&gt;&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.aiheadn.cn/categories/%E7%90%86%E8%AE%BA%E5%AD%A6%E4%B9%A0/">理论学习</category>
+      
+      
+      <category domain="https://blog.aiheadn.cn/tags/C/">C</category>
+      
+      
+      <comments>https://blog.aiheadn.cn/archives/679a4029.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>关于hexo配置汇总</title>
+      <link>https://blog.aiheadn.cn/archives/1b4c065d.html</link>
+      <guid>https://blog.aiheadn.cn/archives/1b4c065d.html</guid>
+      <pubDate>Thu, 05 Jan 2023 05:19:11 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;这篇文章主要记录一下我在使用hexo博客遇到的一些问题，以及一些常用的配置，都汇总到这篇文章，持续性更新，以便忘记的时候方便查找。&lt;/p&gt;
+&lt;h1 id=&quot;分类名和标签名改成英文&quot;&gt;&lt;a href=&quot;#分类名和标签名改成英文&quot; class=&quot;headerlink&quot; title=&quot;分类名和标签名改成英文&quot;&gt;&lt;/a&gt;分类名和标签名改成英文&lt;/h1&gt;&lt;figure class=&quot;highlight md&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.aiheadn.cn/categories/%E6%8A%80%E6%9C%AF%E5%AE%9E%E8%B7%B5/">技术实践</category>
+      
+      
+      <category domain="https://blog.aiheadn.cn/tags/hexo/">hexo</category>
+      
+      
+      <comments>https://blog.aiheadn.cn/archives/1b4c065d.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>基于hexo+butterfly和Github pages博客</title>
+      <link>https://blog.aiheadn.cn/archives/eeace1a8.html</link>
+      <guid>https://blog.aiheadn.cn/archives/eeace1a8.html</guid>
+      <pubDate>Tue, 03 Jan 2023 15:05:59 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;在众多的博客中，我选择了hexo，最大的优势就是可以结合GitHub page来搭建一个免费的个人博客系统，将文章都托管到GitHub上，在也不用担心服务器过期的问题了，而且可以自己买一个域名，解析了GitHub上就可以直接使域名访问了，&lt;br&gt;不过因为有自己的服务器，所以我直接部署在了自己的服务器上面。&lt;/p&gt;
+&lt;h1 id=&quot;环境搭建：NodeJs-Git-Hexo&quot;&gt;&lt;a href=&quot;#环境搭建：NodeJs-Git-Hexo&quot; class=&quot;headerlink&quot; title=&quot;环境搭建：NodeJs+Git+Hexo&quot;&gt;&lt;/a&gt;环境搭建：NodeJs+Git+Hexo&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;1.下载安装 &lt;a href=&quot;https://nodejs.org/en/&quot;&gt;node.js&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.aiheadn.cn/categories/%E6%8A%80%E6%9C%AF%E5%AE%9E%E8%B7%B5/">技术实践</category>
+      
+      
+      <category domain="https://blog.aiheadn.cn/tags/hexo/">hexo</category>
+      
+      <category domain="https://blog.aiheadn.cn/tags/blog/">博客</category>
+      
+      <category domain="https://blog.aiheadn.cn/tags/Butterfly/">Butterfly</category>
+      
+      
+      <comments>https://blog.aiheadn.cn/archives/eeace1a8.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>java+swing+mysql 实现简单的班级管理系统</title>
+      <link>https://blog.aiheadn.cn/archives/4f6b19d6.html</link>
+      <guid>https://blog.aiheadn.cn/archives/4f6b19d6.html</guid>
+      <pubDate>Tue, 03 Jan 2023 14:56:18 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;&lt;img src=&quot;https://cos.aiheadn.cn/md/blog/2022.11.28/1.png&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://cos.aiheadn.cn/md/blog/2022.11.28/2.png&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://cos.aiheadn.cn/md/blog/2022.11.28/3.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;链接：&lt;a href=&quot;https://pan.baidu.com/s/13S39GLMJHMpzySX5XB1mHQ&quot;&gt;https://pan.baidu.com/s/13S39GLMJHMpzySX5XB1mHQ&lt;/a&gt;&lt;br&gt;提取码：n94a</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.aiheadn.cn/categories/%E6%8A%80%E6%9C%AF%E5%AE%9E%E8%B7%B5/">技术实践</category>
+      
+      
+      <category domain="https://blog.aiheadn.cn/tags/Java/">Java</category>
+      
+      
+      <comments>https://blog.aiheadn.cn/archives/4f6b19d6.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>总结平面设计的学校宣传作品</title>
+      <link>https://blog.aiheadn.cn/archives/586e1f4c.html</link>
+      <guid>https://blog.aiheadn.cn/archives/586e1f4c.html</guid>
+      <pubDate>Tue, 03 Jan 2023 14:54:19 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;&lt;img src=&quot;https://cos.aiheadn.cn/md/blog/2022.11.17/1.jpg&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cos.aiheadn.cn/md/blog/2022.11.17/2.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://cos.aiheadn.cn/md/blog/2022.11.17/5.jpg&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cos.aiheadn.cn/md/blog/2022.11.17/3.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://cos.aiheadn.cn/md/blog/2022.11.17/4.jpg&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cos.aiheadn.cn/md/blog/2022.01.19/1.png&quot;&gt;&lt;br&gt;&lt;img</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.aiheadn.cn/categories/plane/">平面设计</category>
+      
+      
+      <category domain="https://blog.aiheadn.cn/tags/%E6%B5%B7%E6%8A%A5/">海报</category>
+      
+      
+      <comments>https://blog.aiheadn.cn/archives/586e1f4c.html#disqus_thread</comments>
+      
+    </item>
+    
+  </channel>
+</rss>
